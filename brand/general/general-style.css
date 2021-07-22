@@ -1,0 +1,211 @@
+body.domain-general {
+  background: #fbf0f0;
+}
+
+.domain-general hr {
+  background: #d26f6f;
+}
+
+.domain-general ul,
+.domain-general ul li.leaf {
+  list-style-image: url(menu-leaf.gif);
+}
+
+.domain-general ul li.expanded {
+  list-style-image: url(menu-expanded.gif);
+}
+
+.domain-general ul li.collapsed {
+  list-style-image: url(menu-collapsed.gif); /* LTR */
+}
+
+.domain-general thead th {
+  border-bottom: 2px solid #f7dbdb;
+}
+
+.domain-general tr.even,
+.domain-general tr.odd,
+.domain-general tbody th {
+  border: solid #f7dbdb;
+}
+
+.domain-general tr.odd,
+.domain-general tr.info {
+  background-color: #fbf0f0;
+}
+
+.domain-general tr.drag {
+  background-color: #ffbcbc;
+}
+
+.domain-general tr.drag-previous {
+  background-color: #ffdede;
+}
+
+.domain-general tr.odd td.active {
+  background-color: #f8e3e3;
+}
+
+.domain-general tr.even td.active {
+  background-color: #f9eaea;
+}
+
+.domain-general td.region-title,
+.domain-general td.module,
+.domain-general td.container,
+.domain-general td.category {
+  border-bottom: 1px solid #f5c2c2;
+  background-color: #f6dbdb;
+}
+
+.domain-general .region-header {
+  background: #f6dada url(bg-navigation.png) repeat-x 50% 100%;
+}
+
+.domain-general #wrapper {
+  background: #fbf0f0 url(body.png) repeat-x 50% 0;
+}
+
+.domain-general .block-region {
+  border: 2px dashed #f5c2c2;
+}
+
+.domain-general #wrapper #container #center #squeeze {
+  background: #ffffff url(bg-content.png) repeat-x 50% 0;
+}
+
+.domain-general #wrapper #container #center .right-corner {
+  background: transparent url(bg-content-right.png) no-repeat 100% 0;
+}
+
+.domain-general #wrapper #container #center .right-corner .left-corner {
+  background: transparent url(bg-content-left.png) no-repeat 0 0;
+}
+
+.domain-general #branding,
+.domain-general #branding a:link,
+.domain-general #branding a:visited {
+  text-shadow: #d42929 0px 1px 3px;
+}
+
+.domain-general #highlighted {
+  border: 1px solid #fcece7;
+}
+
+.domain-general #overlay #overlay-tabs li.active a {
+  background: url(body.png) repeat-x scroll 50% -58px #eeefef;
+}
+
+.domain-general ul.main-menu li a,
+.domain-general ul.main-menu li a:link,
+.domain-general ul.main-menu li a:visited {
+  background: transparent url(bg-navigation-item.png) no-repeat 50% 0;
+}
+
+.domain-general ul.main-menu li a:hover,
+.domain-general ul.main-menu li a.active {
+  background: transparent url(bg-navigation-item-hover.png) no-repeat 50% 0;
+}
+
+.domain-general #tabs-wrapper {
+  border-bottom: 1px solid #f6ecec;
+}
+
+.domain-general ul.secondary {
+  border-bottom: 1px solid #f6ecec;
+}
+
+.domain-general ul.primary li.active a,
+.domain-general ul.primary li.active a:link,
+.domain-general ul.primary li.active a:visited,
+.domain-general ul.primary li a:hover,
+.domain-general ul.secondary li.active a,
+.domain-general ul.secondary li.active a:link,
+.domain-general ul.secondary li.active a:visited,
+.domain-general ul.secondary li a:hover {
+  background: url(bg-tab.png) repeat-x 0 50%;
+}
+
+.domain-general .node {
+  border-bottom: 1px solid #f6ecec;
+}
+
+.domain-general .node-sticky {
+  border: 1px solid #fcece7;
+}
+
+.domain-general #comments {
+  border-bottom: 1px solid #f6ecec;
+}
+
+.domain-general #comments h2.comments {
+  background: #ffffff url(gradient-inner.png) repeat-x 0 0;
+}
+
+.domain-general .comment {
+  border-top: 1px solid #f6ecec;
+}
+
+.domain-general #aggregator .feed-item {
+  border-bottom: 1px solid #f6ecec;
+}
+
+.domain-general #palette .item-selected {
+  background: #ffffff url(gradient-inner.png) repeat-x 0 0;
+  border: 1px solid #f8dfdf;
+}
+
+.domain-general tr.odd td.menu-disabled {
+  background-color: #fbf0f0;
+}
+
+.domain-general .poll .bar {
+  background: #ffffff url(bg-bar-white.png) repeat-x 0 0;
+  border: solid #f3f1f1;
+}
+
+.domain-general .poll .bar .foreground {
+  background: #da8989 url(bg-bar.png) repeat-x 0 100%;
+}
+
+.domain-general fieldset {
+  border: 1px solid #f8dfdf;
+  background: #ffffff url(gradient-inner.png) repeat-x 0 0;
+}
+
+.domain-general html.js fieldset.collapsible .fieldset-legend {
+  background: url(menu-expanded.gif) no-repeat 0% 50%; /* LTR */
+}
+
+.domain-general html.js fieldset.collapsed .fieldset-legend {
+  background: url(menu-collapsed.gif) no-repeat 0% 50%; /* LTR */
+}
+
+.domain-general div.vertical-tabs {
+  border-color: #f8dfdf;
+}
+
+.domain-general div.vertical-tabs ul.vertical-tabs-list {
+  border-color: #f8dfdf;
+}
+
+.domain-general div.vertical-tabs ul.vertical-tabs-list li {
+  background-color: #fbf0f0;
+  border-color: #f8dfdf;
+}
+
+.domain-general div.vertical-tabs ul.vertical-tabs-list li.selected.first {
+  background-image: url(gradient-inner.png);
+}
+
+.domain-general div.admin-panel {
+  background: #ffffff url(gradient-inner.png) repeat-x 0 0;
+}
+
+.domain-general table.system-status-report th {
+  border-color: #f7dbdb;
+}
+
+.domain-general tr.taxonomy-term-divider-bottom {
+  border-top: 1px dotted #d7d2d2;
+}

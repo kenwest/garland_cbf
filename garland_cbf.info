@@ -1,0 +1,8 @@
+name = Garland CBF
+description = CBF subtheme of Garland
+core = 7.x
+base theme = garland
+;stylesheets[all][] = brand/general/style.css
+;stylesheets[all][] = brand/christian/style.css
+stylesheets[all][] = style.css
+settings[garland_width] = fluid

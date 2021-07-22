@@ -1,0 +1,211 @@
+body.domain-christian {
+  background: #eef7fc;
+}
+
+.domain-christian hr {
+  background: #63b0d7;
+}
+
+.domain-christian ul,
+.domain-christian ul li.leaf {
+  list-style-image: url(menu-leaf.gif);
+}
+
+.domain-christian ul li.expanded {
+  list-style-image: url(menu-expanded.gif);
+}
+
+.domain-christian ul li.collapsed {
+  list-style-image: url(menu-collapsed.gif); /* LTR */
+}
+
+.domain-christian thead th {
+  border-bottom: 2px solid #d7eef8;
+}
+
+.domain-christian tr.even,
+.domain-christian tr.odd,
+.domain-christian tbody th {
+  border: solid #d7eef8;
+}
+
+.domain-christian tr.odd,
+.domain-christian tr.info {
+  background-color: #eef7fc;
+}
+
+.domain-christian tr.drag {
+  background-color: #fffabc;
+}
+
+.domain-christian tr.drag-previous {
+  background-color: #fefcde;
+}
+
+.domain-christian tr.odd td.active {
+  background-color: #e0f1f9;
+}
+
+.domain-christian tr.even td.active {
+  background-color: #e8f5fa;
+}
+
+.domain-christian td.region-title,
+.domain-christian td.module,
+.domain-christian td.container,
+.domain-christian td.category {
+  border-bottom: 1px solid #bde3f7;
+  background-color: #d8eef7;
+}
+
+.domain-christian .region-header {
+  background: #d7edf8 url(bg-navigation.png) repeat-x 50% 100%;
+}
+
+.domain-christian #wrapper {
+  background: #eef7fc url(body.png) repeat-x 50% 0;
+}
+
+.domain-christian .block-region {
+  border: 2px dashed #bde3f7;
+}
+
+.domain-christian #wrapper #container #center #squeeze {
+  background: #ffffff url(bg-content.png) repeat-x 50% 0;
+}
+
+.domain-christian #wrapper #container #center .right-corner {
+  background: transparent url(bg-content-right.png) no-repeat 100% 0;
+}
+
+.domain-christian #wrapper #container #center .right-corner .left-corner {
+  background: transparent url(bg-content-left.png) no-repeat 0 0;
+}
+
+.domain-christian #branding,
+.domain-christian #branding a:link,
+.domain-christian #branding a:visited {
+  text-shadow: #1f7dd4 0px 1px 3px;
+}
+
+.domain-christian #highlighted {
+  border: 1px solid #e4ebfd;
+}
+
+.domain-christian #overlay #overlay-tabs li.active a {
+  background: url(body.png) repeat-x scroll 50% -58px #eeefef;
+}
+
+.domain-christian ul.main-menu li a,
+.domain-christian ul.main-menu li a:link,
+.domain-christian ul.main-menu li a:visited {
+  background: transparent url(bg-navigation-item.png) no-repeat 50% 0;
+}
+
+.domain-christian ul.main-menu li a:hover,
+.domain-christian ul.main-menu li a.active {
+  background: transparent url(bg-navigation-item-hover.png) no-repeat 50% 0;
+}
+
+.domain-christian #tabs-wrapper {
+  border-bottom: 1px solid #eaf2f6;
+}
+
+.domain-christian ul.secondary {
+  border-bottom: 1px solid #eaf2f6;
+}
+
+.domain-christian ul.primary li.active a,
+.domain-christian ul.primary li.active a:link,
+.domain-christian ul.primary li.active a:visited,
+.domain-christian ul.primary li a:hover,
+.domain-christian ul.secondary li.active a,
+.domain-christian ul.secondary li.active a:link,
+.domain-christian ul.secondary li.active a:visited,
+.domain-christian ul.secondary li a:hover {
+  background: url(bg-tab.png) repeat-x 0 50%;
+}
+
+.domain-christian .node {
+  border-bottom: 1px solid #eaf2f6;
+}
+
+.domain-christian .node-sticky {
+  border: 1px solid #e4ebfd;
+}
+
+.domain-christian #comments {
+  border-bottom: 1px solid #eaf2f6;
+}
+
+.domain-christian #comments h2.comments {
+  background: #ffffff url(gradient-inner.png) repeat-x 0 0;
+}
+
+.domain-christian .comment {
+  border-top: 1px solid #eaf2f6;
+}
+
+.domain-christian #aggregator .feed-item {
+  border-bottom: 1px solid #eaf2f6;
+}
+
+.domain-christian #palette .item-selected {
+  background: #ffffff url(gradient-inner.png) repeat-x 0 0;
+  border: 1px solid #ddf0f9;
+}
+
+.domain-christian tr.odd td.menu-disabled {
+  background-color: #eef7fc;
+}
+
+.domain-christian .poll .bar {
+  background: #ffffff url(bg-bar-white.png) repeat-x 0 0;
+  border: solid #f3f0f0;
+}
+
+.domain-christian .poll .bar .foreground {
+  background: #7fbede url(bg-bar.png) repeat-x 0 100%;
+}
+
+.domain-christian fieldset {
+  border: 1px solid #ddf0f9;
+  background: #ffffff url(gradient-inner.png) repeat-x 0 0;
+}
+
+.domain-christian html.js fieldset.collapsible .fieldset-legend {
+  background: url(menu-expanded.gif) no-repeat 0% 50%; /* LTR */
+}
+
+.domain-christian html.js fieldset.collapsed .fieldset-legend {
+  background: url(menu-collapsed.gif) no-repeat 0% 50%; /* LTR */
+}
+
+.domain-christian div.vertical-tabs {
+  border-color: #ddf0f9;
+}
+
+.domain-christian div.vertical-tabs ul.vertical-tabs-list {
+  border-color: #ddf0f9;
+}
+
+.domain-christian div.vertical-tabs ul.vertical-tabs-list li {
+  background-color: #eef7fc;
+  border-color: #ddf0f9;
+}
+
+.domain-christian div.vertical-tabs ul.vertical-tabs-list li.selected.first {
+  background-image: url(gradient-inner.png);
+}
+
+.domain-christian div.admin-panel {
+  background: #ffffff url(gradient-inner.png) repeat-x 0 0;
+}
+
+.domain-christian table.system-status-report th {
+  border-color: #d7eef8;
+}
+
+.domain-christian tr.taxonomy-term-divider-bottom {
+  border-top: 1px dotted #d8cdcd;
+}
